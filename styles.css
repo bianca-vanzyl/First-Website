@@ -1,0 +1,76 @@
+h1 {
+    color: rgba(0, 0, 0, 0.8);
+    font-family: sans-serif;
+    font-size: 400%;
+    text-align: center;
+    padding-top: 100px;
+}
+#menu-bar {
+    background-image: url(images/pexels-beth-fitzpatrick-742222899-30636077.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: right;
+    padding-bottom: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menu-bar a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+    font-size: large;
+    color: rgba(0, 0, 0, 0.8);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+#menu-bar a:hover {
+    color: rgba(0, 0, 0, 0.8);
+    font-weight: bold;
+}
+body {
+    background-color: whitesmoke;
+}
+#home-desc p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 50px;
+}
+#menu-links {
+    background-color: whitesmoke;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#menu-links img {
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+#home-desc p {
+    font-size: 125%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 75px;
+}
+#home-content {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.8);
+}
+* {
+  box-sizing: border-box;
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.8)
+}
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
